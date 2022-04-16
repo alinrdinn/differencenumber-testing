@@ -52,13 +52,13 @@ Repositori ini merupakan hasil dari pengujian program Number Difference yang dib
 <div>
 	<img width="100%" src="images/preview.png" />
 </div>
-Number Difference merupakan sebuah program yang menerima input sebanyak N buah bilangan bulat sehingga membentuk deret bilangan. Nilai deret bilangan tersebut dapat berupa bilangan positif, negatif atau nol. Kemudian program mencari selisih bilangan antara bilangan dengan nilai paling kecil (max) dan bilangan dengan nilai paling besar (min) pada deretan bilangan bulat tersebut. Nilai N haruslah berada pada range 1-10. Jika nilai N berada pada range valid, maka akan melakukan proses perhiungan selisih bilangan max dan bilangan min, lalu menampilkan hasilnya ke layar. Namun, jika nilai N berada di luar range, maka program akan menampilkan **`“Number difference can not be processed”.`**
+Number Difference merupakan sebuah program yang menerima input sebanyak N buah bilangan bulat sehingga membentuk deret bilangan. Nilai deret bilangan tersebut dapat berupa bilangan positif, negatif atau nol. Kemudian program mencari selisih bilangan antara bilangan dengan nilai paling kecil (max) dan bilangan dengan nilai paling besar (min) pada deretan bilangan bulat tersebut. Nilai N haruslah berada pada range 1-10. Jika nilai N berada pada range valid, maka akan melakukan proses perhiungan selisih bilangan max dan bilangan min, lalu menampilkan hasilnya ke layar. Namun, jika nilai N berada di luar range, maka program akan menampilkan **`Number difference can not be processed`**
 
 Selanjutnya, program akan melakukan klasifikasi terhadap selisih nilai bilangan ke dalam 3 kelompok, yaitu kecil (kel. 1), sedang (kel. 2) dan besar (kel. 3). Proses pengelompokan di jelaskan di bawah ini:
 1) Kelompok 1, selisih kecil, berada pada range 1-10 dengan menampilkan informasi **`“Small Difference”`**
 2) Kelompok 2, selisih sedang, berada pada range 11-50 dengan menampilkan informasi **`“Medium Difference”`**
 3) Kelompok 3, selisih besar berada pada range > 50 dengan menampilkan informasi **`“Large Difference”`**
-Sementara jika memiliki selisih 0 yang tidak berada pada 3 kelompok tersebut menampilkan **`“There’s no difference”
+Sementara jika memiliki selisih 0 yang tidak berada pada 3 kelompok tersebut menampilkan **`“There’s no difference”`**
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -114,7 +114,7 @@ Langkah awal yang dilakukan adalah mengisi password yang sebelumnya terlebih dah
 
 ![](https://lh6.googleusercontent.com/jW8_2Svw-5x5lEPOmhlob3YhgXpyd_eqLOZ5Hx8YquZSrPezEGqYYLAYrvIfXOpFUFxk_5O6hEoPSoPvJhp-Sj7VF5C-gIBw6BoKyph_Rqq9RkDIPiOUtdTLiMUim23_SU9nEFvM)
 
-Setelah command prompt dapat dibuka, jalankan perintah mvn clean install untuk melakukan instalasi maven pada project tersebut dan tunggu hingga menghasilkan informasi **BUILD SUCCESS.
+Setelah command prompt dapat dibuka, jalankan perintah mvn clean install untuk melakukan instalasi maven pada project tersebut dan tunggu hingga menghasilkan informasi **BUILD SUCCESS**.
 
 ![](https://lh5.googleusercontent.com/HGWgpnudy-dHSttDDwFovJqOSDxvEnXZ3M22kX9vhXWg9GWcWowkc_lmdHHnpeFBynujhvR2s8kYWOtASbraUat83d6DSQTrTL8scjwyONw_YwrH9JETk_N3Xn9ky3SwM1MMTt9z)
 
