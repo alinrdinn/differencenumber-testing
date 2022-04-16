@@ -2,4 +2,4 @@ GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_
 NumberDifference,com.numberdifference,App,10,0,0,0,4,0,2,0,2,0
 NumberDifference,com.numberdifference,NumberDifferenceFlow,18,30,1,1,5,10,1,2,0,2
 NumberDifference,com.numberdifference,Screen,30,23,2,0,8,9,3,4,2,4
-NumberDifference,com.numberdifference,CalcNUmberDifference,0,125,4,23,0,31,4,15,0,4
+NumberDifference,com.numberdifference,CalcNUmberDifference,0,126,4,23,0,29,4,15,0,4
