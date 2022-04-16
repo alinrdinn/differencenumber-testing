@@ -52,7 +52,7 @@ Repositori ini merupakan hasil dari pengujian program Number Difference yang dib
 <div>
 	<img width="100%" src="images/preview.png" />
 </div>
-Number Difference merupakan sebuah program yang menerima input sebanyak N buah bilangan bulat sehingga membentuk deret bilangan. Nilai deret bilangan tersebut dapat berupa bilangan positif, negatif atau nol. Kemudian program mencari selisih bilangan antara bilangan dengan nilai paling kecil (max) dan bilangan dengan nilai paling besar (min) pada deretan bilangan bulat tersebut. Nilai N haruslah berada pada range 1-10. Jika nilai N berada pada range valid, maka akan melakukan proses perhiungan selisih bilangan max dan bilangan min, lalu menampilkan hasilnya ke layar. Namun, jika nilai N berada di luar range, maka program akan menampilkan **`Number difference can not be processed`**
+Number Difference merupakan sebuah program yang menerima input sebanyak N buah bilangan bulat sehingga membentuk deret bilangan. Nilai deret bilangan tersebut dapat berupa bilangan positif, negatif atau nol. Kemudian program mencari selisih bilangan antara bilangan dengan nilai paling kecil (max) dan bilangan dengan nilai paling besar (min) pada deretan bilangan bulat tersebut. Nilai N haruslah berada pada range 1-10. Jika nilai N berada pada range valid, maka akan melakukan proses perhiungan selisih bilangan max dan bilangan min, lalu menampilkan hasilnya ke layar. Namun, jika nilai N berada di luar range, maka program akan menampilkan `Number difference can not be processed`
 
 Selanjutnya, program akan melakukan klasifikasi terhadap selisih nilai bilangan ke dalam 3 kelompok, yaitu kecil (kel. 1), sedang (kel. 2) dan besar (kel. 3). Proses pengelompokan di jelaskan di bawah ini:
 1) Kelompok 1, selisih kecil, berada pada range 1-10 dengan menampilkan informasi **`“Small Difference”`**
@@ -132,7 +132,7 @@ Kemudian tunggu hingga berhasil dan menghasilkan informasi **BUILD SUCCESS**
 
 ![](https://lh5.googleusercontent.com/3HkgmKsX1moblqWM2AKbJ94TiLqMLiY0x-PRpz8EuVHjjBMOXsMRs7gFx2oEFhrTHlho5PIIBDwIwynZ_OlT0h3-cRu_Ej4Zh7xvuCBFveUv-2uzeOv0tEiieAMNvm2lDEWjSi3Z)
 
-Ketika kita melakukan click pada detail project, maka akan tampil informasi dari file NumberDifferenceTest.java yang ada pada directory local, seperti dibawah ini:
+Ketika kita melakukan click pada detail project, maka akan tampil informasi dari file `NumberDifferenceTest.java` yang ada pada directory local, seperti di bawah ini:
 
 ![](https://lh6.googleusercontent.com/aTbdwcqoiM7AIfbqMH4l1AecpUQnLeBfSa82hb2mQlwhBCHm-ihMHz3lzUEeKC9u0N3ipYJjF3ROEfj8LME10VitlsN06QUwh4xdzVEvsf0PUXW_X72GUbOQrYPH0kRGAPKcaulI)
 
