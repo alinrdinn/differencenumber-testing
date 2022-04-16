@@ -16,7 +16,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Daftar Isi</summary>
   <ol>
     <li>
       <a href="#about-the-author">Tentang Kami</a>
@@ -35,7 +35,7 @@
 
 
 <!-- ABOUT THE AUTHOR -->
-# :man_student: About The Author
+# :man_student: Tentang Kami
 Halo! Repositori ini milik kelompok 4 yang beranggotakan:
 1. 191524004 - Ali Nurdin
 2. 191524008 - Farra Jessica
@@ -45,24 +45,24 @@ Kami dari kelas prodi D4 Teknik Informatika
 Jurusan Teknik Komputer dan Informatika '19
 
 <!-- ABOUT THE PROJECT -->
-# :open_book: About The Repository
+# :open_book: Tentang Repository
 Repositori ini merupakan hasil dari pengujian program Number Difference yang dibuat untuk memenuhi tugas mata kuliah Software Testing
 
-## :notebook: Number Difference
+## :notebook: Number Difference Program
 <div>
 	<img width="100%" src="images/preview.png" />
 </div>
-dicionário (in português) or commonly known as a dictionary (in English) is an applications that contain various languages that can help us to translate a text from one language to another, but this project only containts the variety of language that can help the translator main machine.
- This application also has several features, including :
- 
-- :star2: Add language
-- :star2: Search Language
-- :star2: Update Language
-- :star2: Delete language
+Number Difference merupakan sebuah program yang menerima input sebanyak N buah bilangan bulat sehingga membentuk deret bilangan. Nilai deret bilangan tersebut dapat berupa bilangan positif, negatif atau nol. Kemudian program mencari selisih bilangan antara bilangan dengan nilai paling kecil (max) dan bilangan dengan nilai paling besar (min) pada deretan bilangan bulat tersebut. Nilai N haruslah berada pada range 1-10. Jika nilai N berada pada range valid, maka akan melakukan proses perhiungan selisih bilangan max dan bilangan min, lalu menampilkan hasilnya ke layar. Namun, jika nilai N berada di luar range, maka program akan menampilkan **`“Number difference can not be processed”.`**
+
+Selanjutnya, program akan melakukan klasifikasi terhadap selisih nilai bilangan ke dalam 3 kelompok, yaitu kecil (kel. 1), sedang (kel. 2) dan besar (kel. 3). Proses pengelompokan di jelaskan di bawah ini:
+1) Kelompok 1, selisih kecil, berada pada range 1-10 dengan menampilkan informasi **`“Small Difference”`**
+2) Kelompok 2, selisih sedang, berada pada range 11-50 dengan menampilkan informasi **`“Medium Difference”`**
+3) Kelompok 3, selisih besar berada pada range > 50 dengan menampilkan informasi **`“Large Difference”`**
+Sementara jika memiliki selisih 0 yang tidak berada pada 3 kelompok tersebut menampilkan **`“There’s no difference”
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## :computer: Built With
+## :computer: Alat dan Media
 * Java
 * Junit
 * Sonar Qube 8.9.8 LTS
@@ -73,7 +73,7 @@ dicionário (in português) or commonly known as a dictionary (in English) is an
 
 
 <!-- GETTING STARTED -->
-## :desktop_computer: Getting Started
+## :desktop_computer: Tutorial
 Langkah-langkah dalam membuat test script menggunakan Junit:
 
 1.  Menyelaraskan penggunaan JDK, yaitu JDK *versi 11*
@@ -138,7 +138,7 @@ Ketika kita melakukan click pada detail project, maka akan tampil informasi dari
 
 Catatan: Test unit telah ditambahkan pada kode di atas
 
-Untuk membuat test script, kita dapat menambahkan nya pada file NumberDifferenceTest.java sesuai test suite yang ada dengan menggunakan Junit. Setelah test script selesai dibuat, agar dapat mengecek nya pada Sonar Qube. Kita perlu menjalankan perintah mvn clean install pada command prompt, tunggu hingga **BUILD SUCCESS**, menjalankan perintah akses token seperti pada langkah sebelumnya, tunggu hingga **BUILD SUCCESS, dan kita dapat melihat pembaruan informasi nya pada Sonar Qube.
+Untuk membuat test script, kita dapat menambahkan nya pada file NumberDifferenceTest.java sesuai test suite yang ada dengan menggunakan Junit. Setelah test script selesai dibuat, agar dapat mengecek nya pada Sonar Qube. Kita perlu menjalankan perintah mvn clean install pada command prompt, tunggu hingga **BUILD SUCCESS**, menjalankan perintah akses token seperti pada langkah sebelumnya, tunggu hingga **BUILD SUCCESS**, dan kita dapat melihat pembaruan informasi nya pada Sonar Qube.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
